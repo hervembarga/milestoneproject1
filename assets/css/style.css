@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Open+Sans:wght@100;200;300;400;500;600;700;800&family=Oswald:wght@100;200;300;400;500;600;700;800&family=Roboto:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/*  ------------Home page Header -------------- */
+
+.alert{
+    border-radius: 0;
+    padding: 0.35rem;
+    margin-bottom: 0;
+}
+
+.social-media-top {
+  color: #0a3d69;
+  background-color: #ffd230;
+  text-align: center;
+}
+.social-media-top span{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding-right: 25px;
+  font-size: 16px;
+}
+.social-media-top i{
+    padding-right: 25px; 
+    font-size: 24px;
+}
+
+
+.navbar-menu{
+    background-color:#138dbb; 
+    font-family: "Oswald", sans-serif;
+    font-size: 1.1rem;
+}
+
+.navbar-menu{
+    padding: 0 10px 0 25px;
+    letter-spacing: 2px;
+}
+
+
+/* set the menu text colour to white*/
+#navbarSupportedContent a{
+    color:#fff;
+}
+
+#navbarSupportedContent a:hover{
+     color:#0a3d69;
+}
+
+.logo {
+    width: 120px;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 60px 60px 25px 25px;
+    
+    
+}
+ a button.btn-contact-us {
+    color:#0a3d69;
+}
+
+button.btn-contact-us{
+    padding: 0 0.5rem;
+    background-color: #d0f4fa;
+    border-radius: 6px;
+    border: 2px solid white;
+    margin-right: 0.5rem;
+    font-size: 1.1rem;
+}
+button.btn-contact-us:hover{
+    color:#145790;
+    font-weight: 500;
+}
+.navbar-brand{
+    padding: 2px;
+}
+.nav-item{
+    padding-right: 5px;
+}
+
+
+/*  ------------ general classes -------------- */
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+#navbarSupportedContent .activate{
+    color: #042847;
+    font-weight: 600;
+}
+
+/*-------------------------  Media queries --------*/
+@media (min-width:770px){
+    #navbarSupportedContent{
+    position:absolute;
+    right: 0;
+}
+}
+
+/*----------- Hero-image section -------------*/
+.container-xl{
+    height: 575px;
+    background-color: red;
+}
