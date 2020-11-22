@@ -19,6 +19,9 @@ I used Free Logo Design to get a logo
 # Deployment
 
 # Credit
+## Home page
+### Who we are section
+paragraphs copied from [Muxions Technologies](https://muxions.ca/) Website.
 
 
 
