@@ -22,6 +22,8 @@ I used Free Logo Design to get a logo
 ## Home page
 ### Who we are section
 paragraphs copied from [Muxions Technologies](https://muxions.ca/) Website.
+### What we do section
+text from [Wikipedia] (https://en.wikipedia.org/wiki/Web_development)
 
 
 
