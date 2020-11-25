@@ -28,6 +28,9 @@ text from [Wikipedia] (https://en.wikipedia.org/wiki/Web_development)
 ## About page
 ### About Eezy web section
 paragraphs copied from [Zwebra](https://zwebra.com/about.html) Website.
+## Web Apps page
+### Mobile App section
+paragraphs copied from [Branex](https://www.branex.ca/mobile-app-development/) Website.
 
 
 

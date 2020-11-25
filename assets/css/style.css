@@ -286,8 +286,6 @@ padding: 30px 10px;
 }
 .tech-tools{
     background-image: linear-gradient(to right, rgba(196, 225, 239, 0.3), rgba(211, 233, 243, 0.1));
-    margin: 0;
-    padding: 0;
 }
 .tech-icon{
     font-size: 6rem;
@@ -360,6 +358,46 @@ padding: 30px 10px;
     background-size: cover;
     min-height: 200px;
     position: relative;
+}
+.pricing-class td{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color:#0a3d69;
+    font-weight: 400;
+}
+.pricing-class hr{
+    width: 50%;
+}
+.pricing-class{
+    box-shadow: 3px 3px 4px #138dbb;
+    border-width: 2px;
+}
+td.price-here{
+    font-size: 28px;
+    font-family: "Oswald",sans-serif;
+}
+.price-here span{
+    color: #138dbb;
+    font-size: 40px;
+    padding-left: 10px;
+}
+.card-deck{
+    width: 80%;
+    margin: 0 auto;
+}
+.card-body{
+    margin: 0;
+    padding:0;
+}
+.card{
+    margin: 0;
+    padding: 0;
+    border-top: 8px solid #138dbb;
+    border-radius: initial;
+}
+th.plan-here{
+    font-size: 32px;
+    border-bottom: 2px solid #042847;
 }
 /* ----------- e commerce page --------------------------- */
 .e-commerce-banner {
