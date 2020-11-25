@@ -87,6 +87,24 @@ a#btn-contact-us:hover{
 
 /*  ------------ general classes -------------- */
 
+.page-text{
+    font-family: "Roboto",sans-serif;
+    color: #0a3d69;
+    border:8px solid #ecf4f6;
+    padding: 10px 25px;
+    background-color:#f7f8f8;
+    margin: 0;
+}
+.page-text h3{
+    font-family: "Roboto",sans-serif;
+    font-size:20px;
+    text-align: center;
+    padding-bottom: 1rem;
+    letter-spacing: 2px;
+}
+.page-text p{
+    font-size:18px;
+}
 .uppercase{
     text-transform: uppercase;
 }
@@ -138,6 +156,14 @@ a#btn-contact-us:hover{
     text-align: center;
     color: #0a3d69;
     padding-bottom: 2rem;
+}
+.padding-bottom-50{
+    padding-bottom: 50px;
+}
+.page-image{
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 /*----------- Hero-image section -------------*/
@@ -257,6 +283,66 @@ padding: 30px 10px;
     background-size: cover;
     min-height: 200px;
     position: relative;
+}
+.tech-tools{
+    background-image: linear-gradient(to right, rgba(196, 225, 239, 0.3), rgba(211, 233, 243, 0.1));
+    margin: 0;
+    padding: 0;
+}
+.tech-icon{
+    font-size: 6rem;
+}
+.html-color-icon{
+    color: #fb4b1e;
+}
+.css-color-icon{
+    color: #3798d4;
+}
+.javascript-color-icon{
+    color: #f5dd1d;
+}
+.java-color-icon{
+    color: #e62d2e;
+}
+.php-color-icon{
+    color: #007bfd;
+}
+.python-color-icon{
+    color: #36709f;
+}
+.bootstrap-color-icon{
+    color: #573d7e;
+}
+.codepen-color-icon{
+    color: #fac02a;
+}
+.github-color-icon{
+    color: #323031;
+}
+.joomla-color-icon{
+    color: #4e8cc8;
+}
+.wordpress-color-icon{
+    color: #2580ac;
+}
+.aws-color-icon{
+    color: #242f3f;
+}
+.our-team {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+.our-team h4{
+    font-family: "Nerko One",sans-serif;
+    font-size:1.7rem;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 20px;
+}
+.our-team p{
+    font-size: 16px;
+    color:#0a3d69;
 }
 
 /* ----------- websites page --------------------------- */
@@ -380,8 +466,26 @@ footer .container-fluid{
     right: 0;
 }
 }
+@media (max-width: 991.98px) {
+.page-text h3{
+    font-size:18px;
+}
+.page-text p{
+    font-size:14px;
+}
+.page-text{
+    padding:0;
+    border:4px solid #ecf4f6;
+}
+.tech-icon{
+    font-size: 4.3rem;
+}
+ }
 @media (max-width:767.98px){
-
+ .page-text{
+    border:2px solid #ecf4f6;
+    padding:0;
+}
   .footer-card{
       text-align: center;
       border-bottom: 2px solid #6c96bb;
@@ -410,7 +514,10 @@ footer .container-fluid{
     border-image: none;
     border-radius: 12px;
     
-    }
+ }
+ .tech-icon{
+    font-size: 3.6rem;
+}
 }
 @media (max-width:575.98px){
 .proud-customer img{
@@ -434,4 +541,7 @@ padding: 10px 10px;
 .contact-form{
     border: none;
     }
+.our-team {
+    width: 60%;
+}
 }
