@@ -172,6 +172,10 @@ a#btn-contact-us:hover{
 .top-paragraph-text .card-body{
     padding: 20px;
 }
+.padding-top-20 {
+    padding-top: 20px;
+}
+
 
 /*----------- Hero-image section -------------*/
 #hero-section{
