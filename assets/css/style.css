@@ -165,6 +165,13 @@ a#btn-contact-us:hover{
     padding: 0;
     border: none;
 }
+.form-background .container-fluid{
+    background: linear-gradient(rgba(19, 141, 187, 0.58),#f7f8f8);
+        
+}
+.top-paragraph-text .card-body{
+    padding: 20px;
+}
 
 /*----------- Hero-image section -------------*/
 #hero-section{
@@ -256,8 +263,11 @@ a#btn-contact-us:hover{
 .home-we-do p{
     font-size:18px;
 }
-.card{
+.home-we-do .card{
     margin: 5px;
+}
+.home-we-do .card-body{
+    padding: 20px;
 }
 
 /* ----------- Proudly section --------------------------- */
@@ -371,6 +381,8 @@ padding: 30px 10px;
 .pricing-class{
     box-shadow: 3px 3px 4px #138dbb;
     border-width: 2px;
+    border-top: 8px solid #138dbb;
+    margin:0;
 }
 td.price-here{
     font-size: 28px;
@@ -381,8 +393,8 @@ td.price-here{
     font-size: 40px;
     padding-left: 10px;
 }
-.card-deck{
-    width: 80%;
+.price-section{
+    width: 90%;
     margin: 0 auto;
 }
 .card-body{
@@ -392,7 +404,6 @@ td.price-here{
 .card{
     margin: 0;
     padding: 0;
-    border-top: 8px solid #138dbb;
     border-radius: initial;
 }
 th.plan-here{
@@ -498,15 +509,19 @@ footer .container-fluid{
 
 
 /*-------------------------  Media queries --------*/
-@media (min-width:770px){
+@media (min-width:765px){
     #navbarSupportedContent{
     position:absolute;
     right: 0;
 }
+ /* to push the navbar on the right of the screen*/
 }
 @media (max-width: 991.98px) {
 .page-text h3{
     font-size:18px;
+}
+p{
+    font-size: 14px;
 }
 .page-text p{
     font-size:14px;
@@ -556,6 +571,9 @@ footer .container-fluid{
  .tech-icon{
     font-size: 3.6rem;
 }
+.bt-margin{
+    margin-bottom: 30px;
+}
 }
 @media (max-width:575.98px){
 .proud-customer img{
@@ -581,5 +599,8 @@ padding: 10px 10px;
     }
 .our-team {
     width: 60%;
+}
+.price-section{
+    width: 100%;
 }
 }
